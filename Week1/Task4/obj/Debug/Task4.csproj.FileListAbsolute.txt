@@ -1,0 +1,7 @@
+c:\Users\raelisten\source\repos\Task1\Task4\bin\Debug\Task4.exe.config
+c:\Users\raelisten\source\repos\Task1\Task4\bin\Debug\Task4.exe
+c:\Users\raelisten\source\repos\Task1\Task4\bin\Debug\Task4.pdb
+c:\Users\raelisten\source\repos\Task1\Task4\obj\Debug\Task4.csprojAssemblyReference.cache
+c:\Users\raelisten\source\repos\Task1\Task4\obj\Debug\Task4.csproj.CoreCompileInputs.cache
+c:\Users\raelisten\source\repos\Task1\Task4\obj\Debug\Task4.exe
+c:\Users\raelisten\source\repos\Task1\Task4\obj\Debug\Task4.pdb
