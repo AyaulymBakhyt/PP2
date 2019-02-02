@@ -15,15 +15,11 @@ namespace Task3
 
             int n = int.Parse(amount);
             string[] doubnum = line.Split();
-
-            for (int i = 0; i < doubnum.Length; ++i)
+            int[] arr = new int[n];
+            for (int i = 0; i < n; ++i)
             {
-                int x = Convert.ToInt32(doubnum[i]);
-                for (int j = 0; j < 2; ++j)
-                {
-                    Console.Write(x + " ");
-                }
-
+                arr[i] = int.Parse(doubnum[i]);
+              Console.Write(arr[i] + " " + arr[i] + " ");
             }
         }
     }

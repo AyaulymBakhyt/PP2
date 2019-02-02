@@ -5,3 +5,10 @@ c:\Users\raelisten\source\repos\Task1\Task4\obj\Debug\Task4.csprojAssemblyRefere
 c:\Users\raelisten\source\repos\Task1\Task4\obj\Debug\Task4.csproj.CoreCompileInputs.cache
 c:\Users\raelisten\source\repos\Task1\Task4\obj\Debug\Task4.exe
 c:\Users\raelisten\source\repos\Task1\Task4\obj\Debug\Task4.pdb
+C:\Users\Raelisten\Documents\PP2\PP2\Week1\Task4\bin\Debug\Task4.exe.config
+C:\Users\Raelisten\Documents\PP2\PP2\Week1\Task4\bin\Debug\Task4.exe
+C:\Users\Raelisten\Documents\PP2\PP2\Week1\Task4\bin\Debug\Task4.pdb
+C:\Users\Raelisten\Documents\PP2\PP2\Week1\Task4\obj\Debug\Task4.csprojAssemblyReference.cache
+C:\Users\Raelisten\Documents\PP2\PP2\Week1\Task4\obj\Debug\Task4.csproj.CoreCompileInputs.cache
+C:\Users\Raelisten\Documents\PP2\PP2\Week1\Task4\obj\Debug\Task4.exe
+C:\Users\Raelisten\Documents\PP2\PP2\Week1\Task4\obj\Debug\Task4.pdb
