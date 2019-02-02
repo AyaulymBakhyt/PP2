@@ -10,32 +10,39 @@ namespace Task2
     {
         class Student
         {
-            string name, ID;
-            int year = 0;
-        public Student(string name,string ID)
+            public string name, ID;
+            public int year = 0;
+            public Student( string name,string ID)
             {
                 this.name = name;
                 this.ID = ID;
             }
             public void toPrint()
             {
-                Console.WriteLine("Name : "+ name);
+                Console.WriteLine("Name : " + name);
                 Console.WriteLine("ID : " + ID);
-            }
-            public void increment()
-            {
                 year++;
                 Console.WriteLine("Year of study now is : {0}", year);
             }
         }
-        static void Main(string[] args)
-
+        static void F()
         {
-            Student s1 = new Student("Ayaulym", "18BD110767");
-            s1.toPrint();
-            s1.increment();
-            Console.ReadLine();
-            Console.ReadKey();
+            int n = int.Parse(Console.ReadLine());
+            Student[] a = new Student[n];
+            for (int i = 0; i < n; i++)
+            {
+                string[] arr = Console.ReadLine().Split();
+                string name = arr[0];
+                string ID = arr[1];
+                a[i] = new Student(name, ID);
+            }
+               for (int i = 0; i < n; i++)
+                a[i].toPrint();
+            }
+            static void Main(string[] args)
+            {
+                F();
+            }
         }
+
     }
-}
