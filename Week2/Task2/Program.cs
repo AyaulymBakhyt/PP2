@@ -21,7 +21,7 @@ namespace Task2
                     }
             return true;
             }
-        public static void F1()
+        public static void ReadWrite()
         {
             StreamReader sr = new StreamReader(@"C:\Users\Raelisten\Documents\PP2\PP2\Week2\Task2\test2.txt");
             //for reading lines of information from a standard text file.
@@ -38,11 +38,9 @@ namespace Task2
             sr.Close();
             sw.Close();
         }
-
         static void Main(string[] args)
         {
-            F1();
-            
+            ReadWrite(); 
         }
     }
 }

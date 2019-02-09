@@ -1,22 +1,33 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
-namespace Task3
+namespace Task_3
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void PrintSpaces(int level)//spaces between printing folder and directory
         {
-            DirectoryInfo dir = new DirectoryInfo(@"C:\Users\Raelisten\Documents");
-            Console.WriteLine(dir.Name);
-            FileInfo[] files = dir.GetFiles();
-            foreach (FileInfo count in files)
+            for (int i = 0; i < level; i++)
+                Console.Write("  ");
+        }
+
+        public static void Task(DirectoryInfo dir, int level)
+        {
+            foreach (FileInfo f in dir.GetFiles())//find all files
             {
-                Console.WriteLine("   " + count.Name);
+                PrintSpaces(level);
+                Console.WriteLine(f.Name);
             }
+            foreach (DirectoryInfo d in dir.GetDirectories())//find directories in directory
+            {
+                PrintSpaces(level);
+                Console.WriteLine(d.Name);
+                Task(d, level + 1); //checking if in subdirectories exist some files and get all of them too,but recursion
+            }
+        }
+        static void Main()
+        {
+            DirectoryInfo dir = new DirectoryInfo(@"C:\Users\Raelisten\Documents\PP2");//given path for display consistents
+            Task(dir, 0);
         }
     }
 }
