@@ -20,6 +20,11 @@ namespace Task4
                 }
                 Console.WriteLine();
             }
+            /*if n = 3 :
+             [*]
+             [*] [*]
+             [*] [*] [*]
+             */
         }
     }
 }

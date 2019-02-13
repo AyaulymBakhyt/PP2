@@ -12,17 +12,17 @@ namespace Task2
         {
             public string name, ID;
             public int year = 0;
-            public Student( string name,string ID)
+            public Student( string name,string ID)// I will create constructor of two parameters:name and ID
             {
                 this.name = name;
                 this.ID = ID;
             }
-            public void toPrint()
+            public void toPrint()//method for dislaying the name and ID of student
             {
                 Console.WriteLine("Name : " + name);
                 Console.WriteLine("ID : " + ID);
             }
-            public void incmt()
+            public void incmt()//method for incrementing given year in each call
             { 
                    year++;
                 Console.WriteLine("Year of study now is : " + year);
@@ -32,7 +32,7 @@ namespace Task2
             static void Main(string[] args)
             {
            
-            Student a = new Student("Ayaulym","18BD110767");
+            Student a = new Student("Ayaulym","18BD110767");//create constructor and give value for each parameter
                 a.toPrint();
                 a.incmt();
         }

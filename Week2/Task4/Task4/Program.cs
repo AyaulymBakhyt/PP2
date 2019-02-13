@@ -19,6 +19,7 @@ namespace Task4
             string destFile = Path.Combine(targetPath, fileName);//fullname of destination file
             File.Copy(sourceFile, destFile);//copy existing file to another directory
             File.Delete(Path.Combine(curpath, fileName)); //delete file,which was created in first directory
+           
         }
 
     }
