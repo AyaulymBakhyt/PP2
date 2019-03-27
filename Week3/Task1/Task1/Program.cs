@@ -54,15 +54,14 @@ namespace Farr
                 for (int i = 0; i < fs.Length; i++)
                 {
                     Color(fs[i], i);//to hightlight type of fs
-
                     Console.WriteLine(ind + "." + " " + fs[i]);
                     ind++;
                 }
             }
-            public void Up() //moves the cursor up
+            public void Up()
             {
                 cursor--;
-                if (cursor == -1) //if we press the cursor above the first line, it goes to the last
+                if (cursor == -1)
                 {
                     cursor = sz - 1;
                 }
